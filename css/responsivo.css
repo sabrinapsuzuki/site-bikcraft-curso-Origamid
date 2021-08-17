@@ -1,0 +1,163 @@
+@media only screen and (min-width: 823px) and (max-width: 1014px) {
+  .qualidade::after {
+    right: 66px;
+  }
+
+  .qualidadeLista li {
+    text-align: center;
+    padding: 0 10px;
+    padding-bottom: 40px;
+  }
+
+  .footerRedes ul li {
+    padding-right: 5px;
+  }
+
+  .footerRedes ul li:last-child {
+    padding-right: 0;
+  }
+
+  .produtoItem h2 {
+    top: -150px;
+  }
+
+  .produtoIcone {
+    padding: 41px 0;
+  }
+
+  .produtoInfo p {
+    font-size: 14px;
+    line-height: 20px;
+    height: 122px;
+    padding: 20px 30px;
+  }
+
+  .produtoInfo ul li {
+    width: 181px;
+  }
+}
+
+@media only screen and (max-width: 822px) {
+  .header {
+    position: relative;
+  }
+
+  .header img {
+    margin: 0 auto 15px auto;
+  }
+
+  .headerMenu {
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .headerMenu ul li {
+    margin: 5px;
+  }
+
+  .headerMenu ul li a {
+    display: block;
+    width: 136px;
+    border: 4px solid #000;
+    float: left;
+  }
+
+  .headerMenu ul li a:hover {
+    border-color: #fff;
+  }
+
+  .headerMenu ul li a.menuAtivo {
+    border: 4px solid #fff;
+  }
+
+  .introducao {
+    margin-top: 0;
+    padding-top: 50px;
+    background: url(../img/bg-mobile.jpg) no-repeat center;
+    background-size: cover;
+  }
+
+  .introducaoInterna {
+    margin-top: 0;
+  }
+
+  .introducao h1 {
+    line-height: 45px;
+    font-size: 36px;
+  }
+
+  .quoteExterno {
+    margin-bottom: 40px;
+  }
+
+  .quoteExterno p::before,
+  .quoteExterno p::after {
+    margin: 14px auto 10px auto;
+  }
+
+  .call {
+    padding-top: 10px;
+  }
+
+  .qualidade::after {
+    display: none;
+  }
+
+  .qualidadeLista li {
+    padding-bottom: 10px;
+  }
+
+  .missaoSobre p {
+    padding-right: 0px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .missaoSobre ul li {
+    padding-right: 0px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .produtoItem h2 {
+    font-size: 24px;
+    top: -95px;
+    margin-bottom: -45px;
+  }
+
+  .produtoItem h2::after,
+  .produtoItem h2::before {
+    width: 40px;
+    height: 2px;
+    margin: 3px auto 4px auto;
+  }
+
+  .produtoIcone {
+    padding: 41px 0;
+  }
+
+  .produtoInfo p {
+    font-size: 14px;
+    line-height: 20px;
+    height: auto;
+    padding: 20px 30px;
+  }
+
+  .produtoInfo ul li {
+    width: 149px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .form {
+    padding-right: 0;
+  }
+
+  .dados ul {
+    padding-right: 0;
+  }
+
+  .contatoForm {
+    margin-bottom: 40px;
+  }
+}
